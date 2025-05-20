@@ -403,6 +403,7 @@ body {
   .menu {
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
   }
 
   .menu-2 {
@@ -455,12 +456,13 @@ body {
   }
 
   .slider-txt h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .slider-txt p {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .p-price,
@@ -468,6 +470,16 @@ body {
   .btn-2 {
     padding: 10px 15px;
     font-size: 14px;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    margin-top: 300px;
+    margin-left: 35px;
+  }
+
+  .swiper-button-prev::after {
+    margin-right: 65px;
   }
 
   .slider-img {
@@ -488,17 +500,36 @@ body {
     bottom: -7px;
   }
 
+  .product-img {
+    margin-right: 20px;
+  }
+
+  .product-img h4 {
+    background-color: #87d64251;
+    border: 1px solid rgb(47, 198, 87);
+  }
+
+  .product-txt p {
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 1px 1px 4px #7bc53a;
+    font-family: monospace;
+    font-size: 17px;
+  }
+
   .tabs {
     padding: 50px 30px;
   }
 
   .tabs label {
     width: 33%;
+    font-size: 13px;
   }
 
   .info {
     padding: 30px;
     flex-direction: column;
+    align-items: center;
   }
 
   .info-img {
@@ -507,8 +538,8 @@ body {
   }
 
   .info-img img {
-    width: 400px;
-    height: 200px;
+    width: 280px;
+    height: 160px;
     margin-bottom: 25px;
   }
 
@@ -538,6 +569,11 @@ body {
 
   .horario-txt {
     flex-direction: column;
+  }
+
+  .horario-txt h4 {
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   .socials {
